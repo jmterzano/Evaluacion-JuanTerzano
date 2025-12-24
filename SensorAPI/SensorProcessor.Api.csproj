@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SensorProcessor.Application\SensorProcessor.Application.csproj" />
+    <ProjectReference Include="..\SensorProcessor.Infrastructure\SensorProcessor.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

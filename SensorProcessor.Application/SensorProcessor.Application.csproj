@@ -7,9 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstractions\" />
-    <Folder Include="DependencyInjection\" />
-    <Folder Include="UseCases\" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SensorProcessor.Domain\SensorProcessor.Domain.csproj" />
   </ItemGroup>
 
 </Project>
